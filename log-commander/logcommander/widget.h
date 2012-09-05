@@ -17,7 +17,7 @@ class Widget : public QWidget
     struct Private;
     Private* d;
 
-
+    void createMenu();
 
 
 
@@ -34,7 +34,8 @@ private:
 private slots:
 
     MdiChild *createMdiChild();
-    void setActiveSubWindow(QWidget *window);
+    //void setActiveSubWindow(QWidget *window);
+    void on_mdiArea_customContextMenuRequested(const QPoint &pos);
 };
 
 #endif // WIDGET_H

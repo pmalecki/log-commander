@@ -13,10 +13,12 @@ TEMPLATE = app
 SOURCES += main.cpp\
         widget.cpp \
     mdichild.cpp \
-    TextProcessor/textprocessor.cpp
+    TextProcessor/textprocessor.cpp \
+    menu/custommenu.cpp
 
 HEADERS  += widget.h \
     mdichild.h \
-    TextProcessor/textprocessor.h
+    TextProcessor/textprocessor.h \
+    menu/custommenu.h
 
 FORMS    += widget.ui

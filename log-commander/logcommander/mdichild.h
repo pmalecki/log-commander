@@ -7,7 +7,7 @@ class MdiChild : public QTextEdit
 {
     Q_OBJECT
 public:
-    explicit MdiChild(QObject *parent = 0);
+    explicit MdiChild();
     
 signals:
     
